@@ -42,6 +42,36 @@ public class Acm021 {
         }
         return l3;
     }
+
+    public ListNode mergeTwoListsMyTwo(ListNode l1, ListNode l2){
+        ListNode head = new ListNode(0);
+        ListNode ptr = head;
+        while(l1!=null||l2!=null){
+            ListNode cur = null;
+            if(l1==null){
+                ptr.next = l2;
+                break;
+            }else if(l2==null){
+                ptr.next = l1;
+                break;
+            }else {
+                if(l1.val<l2.val){
+                    cur = l1;
+                    l1 = l1.next;
+                }else {
+                    cur = l2;
+                    l2 = l2.next;
+                }
+            }
+            ptr.next = cur;
+            ptr = ptr.next;
+        }
+        return head.next;
+    }
+
+
+
+
 }
 
 class ListNode {
