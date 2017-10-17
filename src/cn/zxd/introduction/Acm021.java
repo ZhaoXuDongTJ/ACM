@@ -43,6 +43,13 @@ public class Acm021 {
         return l3;
     }
 
+    /**
+     *OK code ;
+     * 1.创建链表。一开始就创建对象，最后返回this.next;
+     * @param l1
+     * @param l2
+     * @return
+     */
     public ListNode mergeTwoListsMyTwo(ListNode l1, ListNode l2){
         ListNode head = new ListNode(0);
         ListNode ptr = head;
