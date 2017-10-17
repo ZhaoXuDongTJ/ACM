@@ -25,9 +25,6 @@ public class Acm020 {
 
         int point = 1;
         for(int i=0;i<s.length()-1;i++,point++){
-
-
-
             switch (s.charAt(point)) {
                 case '(':
                     container.push("(");
@@ -125,5 +122,26 @@ public class Acm020 {
         return head == 0;
     }
 
+    /**
+     * 也是使用栈。字符栈。
+     * 栈里面只有“）”“】”“}” 再次碰到这三个字符，出栈判断是否一样；
+     * @param s
+     * @return
+     */
+    public boolean isValidTwo(String s) {
+        Stack<Character> st = new Stack<>();
+        for(char c : s.toCharArray()) {
+            if(c == '(') {
+                st.push(')');
+            } else if(c == '[') {
+                st.push(']');
+            } else if(c == '{') {
+                st.push('}');
+            } else if(st.isEmpty() || c != st.pop()) {
+                return false;
+            }
+        }
+        return st.isEmpty();
+    }
 
 }
