@@ -1,6 +1,13 @@
 package cn.zxd.introduction;
 
 public class Acm021 {
+    /**
+     * My code
+     * Time Limit Exceeded; 有BUG
+     * @param l1
+     * @param l2
+     * @return
+     */
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if(l1==null||l2==null){    // 初始化输入。可能 l1 l2 是空指针
             if(l1!=null){

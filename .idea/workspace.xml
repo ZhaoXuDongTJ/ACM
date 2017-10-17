@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="679bf271-ff61-40cd-afdc-02d78e30c117" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/cn/zxd/introduction/Acm021.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/cn/zxd/introduction/Acm021.java" afterPath="$PROJECT_DIR$/src/cn/zxd/introduction/Acm021.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +17,8 @@
       <file leaf-file-name="Acm021.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/zxd/introduction/Acm021.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+            <state relative-caret-position="350">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -61,7 +60,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="75" />
     <option name="y" value="28" />
     <option name="width" value="1286" />
@@ -259,12 +258,12 @@
       <workItem from="1508051649167" duration="3388000" />
       <workItem from="1508055149511" duration="796000" />
       <workItem from="1508169733539" duration="1295000" />
-      <workItem from="1508223979621" duration="3379000" />
+      <workItem from="1508223979621" duration="3772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21914000" />
+    <option name="totallyTimeSpent" value="22307000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -276,7 +275,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1058" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -471,8 +470,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/zxd/introduction/Acm021.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        <state relative-caret-position="350">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
           <folding />
         </state>
       </provider>
